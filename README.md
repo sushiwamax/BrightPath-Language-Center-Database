@@ -81,13 +81,6 @@ mysql -u root -p < 03_queries.sql
 mysql -u root -p < 09_tests.sql
 ```
 
-Phần `08_admin_backup.md` chạy thủ công theo hướng dẫn trong file (có
-bước tạo user/mật khẩu cần tự điều chỉnh, không nên chạy tự động).
-
-> **Lưu ý:** `01_schema.sql` bắt đầu bằng `DROP DATABASE IF EXISTS`,
-> nên có thể chạy lại toàn bộ pipeline bất cứ lúc nào để có database
-> sạch. Không chạy các script quản trị/backup trên server dùng chung.
-
 ## Tài liệu chi tiết
 
 - Thiết kế & phân tích nghiệp vụ đầy đủ: xem `report.md`
