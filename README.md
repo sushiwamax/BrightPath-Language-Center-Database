@@ -82,6 +82,5 @@ mysql -u root -p < 09_tests.sql
 
 ## Tài liệu chi tiết
 
-- Thiết kế & phân tích nghiệp vụ đầy đủ: xem `report.md`
-- Nội dung diễn giải từng chương (bản dựng sẵn để đưa vào Word/LaTeX): `noi_dung_bao_cao_cuoi_ky.md`
+- Thiết kế & phân tích nghiệp vụ đầy đủ: xem `report.pdf`
 - Không commit mật khẩu thật — mọi credential trong repo chỉ là placeholder demo.
